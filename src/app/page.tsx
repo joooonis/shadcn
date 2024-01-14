@@ -1,5 +1,19 @@
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel';
+
+const Card = () => {
+  return (
+    <div className='w-40 h-40 rounded-xl bg-red-400 flex justify-center items-center text-xl text-white'>
+      hi
+    </div>
+  );
+};
 
 export default function Home() {
   return (
